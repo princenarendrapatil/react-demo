@@ -1,0 +1,24 @@
+body {
+    font-family: -appple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.langs{
+  padding: 0;
+  display:  flex;
+  justify-content: center;
+}
+.langs li{
+  list-style-type: none;
+  margin: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.selected-item{
+  color: red;
+}
